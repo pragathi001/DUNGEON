@@ -61,9 +61,7 @@ public class DGHV {
 	            int stepsAG = Math.abs(aRow - gRow) + Math.abs(aColumn - gColumn);
 	            int stepsMG = Math.abs(mRow - gRow) + Math.abs(mColumn - gColumn);
 
-	            System.out.println("Steps from A to G: " + stepsAG);
-	            System.out.println("Steps from M to G: " + stepsMG);
-
+	            
 	            if (stepsMG < stepsAG) {
 	                int advTrig = Math.abs(aRow - tRow) + Math.abs(aColumn - tColumn);
 	                int trigGold = Math.abs(tRow - gRow) + Math.abs(tColumn - gColumn);
